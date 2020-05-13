@@ -1,0 +1,5 @@
+Simulating github search engine. The search engine is a protected page - will work only if session is open.
+The program uses sqlite3 database to keep favorite saved list.
+(Implementing server side in NodeJS. Communicating with GitHub API using AJAX calls. Based on MVC principles.)
+Note: "npm install" is required to run the program.
+The program is written in WebStorm.
