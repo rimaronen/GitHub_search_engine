@@ -1,0 +1,106 @@
+<pre>
+project: ex4-RimaRonen.
+Rima Ronen
+ID: 315700724
+
+this program simulates github search engine. the search engine is a protected page - will work only if session is open.
+the program uses sqlite3 database to keep favorite saved list.
+
+the session in the program is defined for 2 minutes. may change the time in maxAge in app.js
+
+1. short description for each ajax call in the program:
+
+// for login page
+#ajax call for login:
+    a. url: /login
+    b. description: the first page that is loaded (session not started)
+    c. method: 'GET'
+    d. params: session request - if exists or not
+    e. returns: if session is open redirects to url /github, if not - renders {error: 'boolean',
+    message: 'error message'} if exists.
+
+#ajax call for authentication:
+    a. url: /authentication
+    b. description: the first page that is loaded (session not started)
+    c. method: 'GET'
+    d. params: session request - if exists or not
+    e. returns: if session is open redirects to url /github, if not - renders {error: 'boolean',
+    message: 'error message'} if exists.
+
+#ajax call for logout:
+    a. url: /logout
+    b. description: will be called after pressing on logout button
+    c. method: 'POST'
+    d. params: session request - if exists or not
+    e. returns: no return value. declared the session as "logged off" by setting the boolean
+        as false, and redirecting to /login
+
+// for github search page
+#ajax call for github search page:
+    a. url: /githubSearch
+    b. description: the main page, middleware checking if the session exists
+    c. method: 'GET'
+    d. params: session request - if exists or not
+    e. returns: not return value. if session turned off redirection to /login, if session is turned
+        on, renders 'index' page
+
+#ajax call for displaying the list:
+    a. url: /githubSearch/list
+    b. description: the router returns the users that are saved in the database as array object
+        where- username is the name of the user, and the urlLink is the html link. called each time
+        any operation is made on the database
+    c. method: 'GET'
+    d. params: default params
+    e. returns: users array object
+
+#ajax call for saving a user:
+    a. url: /githubSearch/save
+    b. description: the router is responsible for saving new user in the database, or declaring
+        the user exists.
+    c. method: 'PUT'
+    d. params: req.body.name - the user name from fetching github with valid name - "login" name
+    e. returns: object with message: user exist, or user was added successfully
+
+#ajax call for delete:
+    a. url: /githubSearch/delete
+    b. description: checking if the wanted user is found in the database by checking with the name to lower
+        case field, and delete if so
+    c. method: 'DELETE'
+    d. params: req.body.name (when the name is converted to lower case)
+    e. returns: object with message for successful deleting to the database
+
+#ajax call for check session:
+    a. url: /githubSearch/checkSession
+    b. description: called from the client when search request appears
+    c. method: 'POST'
+    d. params: session request
+    e. returns: object with matching message if the session exists or not
+
+# ajax call for searching a user:
+    a. url: "https://api.github.com/users/:username" - user name chained from the input box
+    b. ajax parameters: method: 'GET'
+    c. relevant response content: "login", "repos_url", "public_repos", "followers_url", "follower".
+
+# ajax call for searching user's followers list:
+    a. url: "https://api.github.com/:username/followers" - sent from followers_url
+    b. ajax parameters: method: 'GET'
+    c. relevant response content: "html_url", "login"
+
+# ajax call for searching user's repositories list:
+    a. url: "https://api.github.com/:username/repos" - sent from public_repos
+    b. ajax parameters: method: 'GET'
+    c. relevant response content: "html_url", "full_name" (of the repository)
+
+2. for an optimal flow in the program, all fetch request are executed in async function.
+each fetch in executed by definition as async function, so that the rest of the program continues
+the flow without any interruptions.
+by checking the response status from fetch, new promise is returned, as rejected of resolved.
+
+3. the program REST service:
+the program REST service contains User database of type sqlite3 - for creating new users for the saved list,
+for the saved users and delete the routes above handle.
+
+
+note: we were requested to find followers number and repositories number for each user- but the fetch api
+was returned with at most 30 of each. so the program runs on the parsed array length that was returned from the request.
+</pre>

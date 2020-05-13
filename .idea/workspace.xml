@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a38b692f-239e-4578-ab87-8cb920415280" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ex4-RimaRonen" />
+  </component>
+  <component name="ProjectId" id="1X1bZDWxx0JnU20UFJ4tF8BHyQk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="NodeJSConfigurationType" path-to-js-file="bin/www" working-dir="$PROJECT_DIR$">
+      <envs>
+        <env name="DEBUG " value=" ex4-rimaronen:*" />
+      </envs>
+      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
+        <browser start="true" url="http://localhost:3000/" />
+      </EXTENSION>
+      <method v="2" />
+    </configuration>
+    <configuration name="www" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="bin/www" working-dir="$PROJECT_DIR$">
+      <envs>
+        <env name="DEBUG " value=" ex4-rimaronen:*" />
+      </envs>
+      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
+        <browser start="true" url="http://localhost:3000/" />
+      </EXTENSION>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a38b692f-239e-4578-ab87-8cb920415280" name="Default Changelist" comment="" />
+      <created>1580216600153</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580216600153</updated>
+      <workItem from="1580216601413" duration="1342000" />
+      <workItem from="1580218338747" duration="51000" />
+      <workItem from="1580218403571" duration="6000" />
+      <workItem from="1580286044796" duration="5008000" />
+      <workItem from="1580305302874" duration="124000" />
+      <workItem from="1580305940591" duration="1646000" />
+      <workItem from="1580377394746" duration="1652000" />
+      <workItem from="1580403176864" duration="78000" />
+      <workItem from="1580410334567" duration="1392000" />
+      <workItem from="1580467499027" duration="226000" />
+      <workItem from="1580469163840" duration="599000" />
+      <workItem from="1580470723984" duration="2213000" />
+      <workItem from="1580484185567" duration="2045000" />
+      <workItem from="1580579852259" duration="492000" />
+      <workItem from="1580580772472" duration="184000" />
+      <workItem from="1580646399120" duration="727000" />
+      <workItem from="1580649286119" duration="636000" />
+      <workItem from="1587320364432" duration="10000" />
+      <workItem from="1587367265904" duration="24000" />
+      <workItem from="1587551517461" duration="265000" />
+      <workItem from="1587562229372" duration="1234000" />
+      <workItem from="1588172177961" duration="1420000" />
+      <workItem from="1589119692573" duration="2975000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580216846332">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1580216846332" />
+    <state x="171" y="0" key="DBNavigator.ProjectSettingsDialog" timestamp="1588172972406">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="171" y="0" key="DBNavigator.ProjectSettingsDialog/0.0.1280.680@0.0.1280.680" timestamp="1588172972406" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1588172682066">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1588172682066" />
+    <state width="1259" height="100" key="GridCell.Tab.0.bottom" timestamp="1580647126588">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="100" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1580647126588" />
+    <state width="1259" height="100" key="GridCell.Tab.0.center" timestamp="1580647126588">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="100" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1580647126588" />
+    <state width="1259" height="100" key="GridCell.Tab.0.left" timestamp="1580647126588">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="100" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1580647126588" />
+    <state width="1259" height="100" key="GridCell.Tab.0.right" timestamp="1580647126588">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="100" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1580647126588" />
+    <state width="1259" height="188" key="GridCell.Tab.1.bottom" timestamp="1580471812755">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="188" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1580471812755" />
+    <state width="1259" height="188" key="GridCell.Tab.1.center" timestamp="1580471812755">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="188" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1580471812755" />
+    <state width="1259" height="188" key="GridCell.Tab.1.left" timestamp="1580471812755">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="188" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1580471812755" />
+    <state width="1259" height="188" key="GridCell.Tab.1.right" timestamp="1580471812755">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="188" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1580471812755" />
+    <state width="1259" height="188" key="GridCell.Tab.2.bottom" timestamp="1580467724273">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="188" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1580467724273" />
+    <state width="1259" height="188" key="GridCell.Tab.2.center" timestamp="1580467724273">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="188" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1580467724273" />
+    <state width="1259" height="188" key="GridCell.Tab.2.left" timestamp="1580467724273">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="188" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1580467724273" />
+    <state width="1259" height="188" key="GridCell.Tab.2.right" timestamp="1580467724273">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="188" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1580467724273" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/login.js</url>
+          <line>15</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

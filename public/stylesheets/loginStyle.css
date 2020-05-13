@@ -1,0 +1,48 @@
+body {
+    background-image: linear-gradient(to right, #dfc2c2 , #90887ecc);
+
+}
+
+h1 {
+    font-family: "Arial Black";
+    text-align: center;
+    color: #743147;
+}
+
+.col-6.md-6 {
+    margin: auto;
+    float: none;
+    text-align: center;
+}
+
+input {
+    width: 70%;
+    color: #762654;
+    font-family: cursive;
+    border-color: transparent;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 2px solid antiquewhite;
+
+}
+
+::placeholder {
+    color: #9b6983d9;
+    font-family: cursive
+}
+
+button {
+    width: 60%;
+}
+
+p {
+    font-family: cursive;
+    font-size: x-large;
+    color: #9c566e;
+    text-align: center;
+}
+
+img {
+    width: 170px;
+    height: 100px;
+}

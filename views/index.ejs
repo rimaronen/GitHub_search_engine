@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+
+
+    <link rel="stylesheet" type="text/css" href="/stylesheets/githubSearchStyle.css"/>
+    <script src = "/javascripts/githubSearchScript.js"></script>
+    <title>Github Search</title>
+
+</head>
+<body>
+
+<div class = container-fluid>
+    <div class = "row">
+        <div class = "col-8 md-8">
+            <br><h1>Github Search</h1>
+        </div>
+        <div class = "col-4 md-4">
+            <form action = "/logout" method="post" id = "logout">
+                <br><button type = "submit" class = "btn btn-light btn-sm pull-right">Logout</button>
+            </form>
+        </div>
+    </div>
+    <p>User name</p>
+    <div class = "row">
+        <div class = "col-12 md-12">
+            <input type = "text" id = "inputBox" placeholder="Enter a github user name"/>
+        </div>
+    </div><br>
+    <p>
+        <input type = "button" class = "btn btn-info" value = "Search user" id = "searchUser"/>
+        <input type = "button" class = "btn btn-danger" value = "Delete user" id = "deleteUser"/>
+    </p>
+    <div class = "row">
+        <div class = "col-6 md-6" id = "userInfo">
+            <p class = "alert alert-secondary" id = "loginName"></p>
+            <button class = "btn btn-success" id = "saveUser">Save user</button><hr>
+            <p id = "repos">Repositories:</p><hr>
+            <ol id = reposList></ol>
+            <p id = "followers">Followers:</p><hr>
+            <ol id = followersList></ol>
+        </div>
+        <div class = "col-6 md-6" id = "saved">
+            <p class = "alert alert-secondary" id="savedHeadline"><strong>Saved:</strong></p>
+            <ol id = savedList></ol>
+        </div>
+    </div>
+    <div class="modal" tabindex="-1" role="dialog" id = "myModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id = "modalTitle"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p id = "modalBody"></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" id = "toLoginButton">Go to login</button>
+                    <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>

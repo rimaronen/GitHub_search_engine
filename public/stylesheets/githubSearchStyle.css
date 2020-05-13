@@ -1,0 +1,44 @@
+body {
+  background-image: linear-gradient(to right, #dfc2c2 , #90887ecc);
+}
+
+#logoutButton {
+  mrgin: auto;
+  float: right;
+  text-align: right;
+}
+
+h1 {
+  font-family: "Arial Black";
+  text-align: right;
+  color: #0b2e13;
+}
+
+#inputBox {
+  width: inherit;
+  color: #762654;
+  border-color: transparent;
+  background-color: transparent;
+  outline: none;
+  border-bottom: 2px solid antiquewhite;
+
+}
+
+#loginInf {
+  text-align: center;
+}
+
+#authentication {
+  margin: auto;
+  float: none;
+  text-align: center;
+}
+
+#logout {
+  float: right;
+}
+
+#repos, #followers {
+  font-family: "Arial Black";
+  font-size: large;
+}
